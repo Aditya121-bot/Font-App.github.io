@@ -1,0 +1,429 @@
+.red{
+    color:white;
+}
+.red2{
+    color:white;
+}
+#contactBack{
+    margin:2%;
+}
+a{
+    margin:auto;
+    color:black;
+    text-decoration:none;
+}
+#cName{
+    top:2%;
+    position:fixed;
+    margin-left:30%;
+    font-size:30px;
+    font-family:'Yanone Kaffeesatz', sans-serif;
+    font-weight:600;
+    text-align:center;
+    
+}
+.contactContainer{
+    width:100%;
+    margin:auto;
+    margin-top:40%;
+    justify-content:space-around;
+    display:flex;
+    border:0px solid black;
+}
+.fa{
+    font-size:40px;
+    display:grid;
+    margin:auto;
+}
+.clogo{
+    height:60px;width:60px;
+    margin:auto;
+    display:grid;
+    border:2px solid black;
+    border-radius:50%;
+    
+}
+/*font-family: 'Akaya Telivigala', cursive;
+font-family: 'Caveat', cursive;
+font-family: 'Concert One', cursive;
+font-family: 'Cookie', cursive;
+font-family: 'Courgette', cursive;
+font-family: 'Dancing Script', cursive;
+font-family: 'Dosis', sans-serif;
+font-family: 'Festive', cursive;
+font-family: 'Fredoka One', cursive;
+font-family: 'Great Vibes', cursive;
+font-family: 'Indie Flower', cursive;
+font-family: 'Lobster', cursive;
+font-family: 'Mochiy Pop P One', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Patrick Hand', cursive;
+font-family: 'Permanent Marker', cursive;
+font-family: 'Quintessential', cursive;
+font-family: 'Roboto', sans-serif;
+font-family: 'Rock 3D', cursive;
+font-family: 'Rowdies', cursive;
+font-family: 'Secular One', sans-serif;
+font-family: 'Shizuru', cursive;
+font-family: 'Tangerine', cursive;
+font-family: 'Yanone Kaffeesatz', sans-serif;
+*/
+*{
+    margin:0;padding:0;
+    box-sizing:border-box;
+}
+body {
+    background-color:whitesmoke;
+}
+#loader{
+    margin-top:50%;
+    text-align:center ;
+    display:flex;
+    justify-content:center;
+}
+#fal{
+    font-size:30px;
+    color:red;
+
+    
+}
+#nav{
+    height:50px;width:100%;
+    border-bottom:1px solid whitesmoke;
+    top:0;
+    transition:.5s all;
+    display:flex;
+    justify-content:space-around;
+    background-color:whitesmoke;
+    position:fixed;
+}
+#mapp{
+    height:330px;width:250px;
+    position:fixed;
+    box-shadow: 0px 0px 2px 1px  #888888;
+    border-radius:10px;
+    background-color:white;
+    border:1px solid white;
+    top:5px;right:5px;
+}
+#mappCo{
+    display:flex;
+    overflow-y:scroll;
+    overflow:scroll;
+    width:100%;
+    height:280px;
+    flex-wrap:wrap;
+    margin-top:50px;
+    
+}
+.mapps{
+    height:70px;width:70px;
+    border:1px solid black;
+    flex-wrap:wrap;
+    border-radius:7px;
+    justify-content:space-around;
+    margin:auto;
+    margin-bottom:6%;
+    margin-top:6%;
+    margin-right:auto;
+}
+.text_l{
+    margin-left:-1px;
+    margin-top:0px;
+    width:250px;
+    background-color:whitesmoke;
+    position:fixed;
+    margin-right:-2px;
+    border-radius:10px 10px 0px 0px;
+    display:flex;
+    justify-content:space-between;
+    border-bottom:.7px solid black;
+}
+#text_l_More{
+    margin:auto;
+    font-size:33px;
+    margin-top:auto;
+        font-family: 'Akaya Telivigala', cursive;
+    margin-left:5px;
+}
+#cross_app{
+    margin:auto;
+    margin-right:5px;
+    margin-top:auto;
+}
+h1{
+    margin:auto;
+    font-size:33px;
+        font-family: 'Fredoka One', cursive;
+}
+#Uparrow{
+    border:1px solid black;
+    display:grid;
+    right:5%;
+    border-radius:50%;
+    transition:.45s all;
+    background-color:white;
+    height:40px;width:40px;
+    position:fixed;
+    bottom:20px;
+    
+}
+#Uparrows{
+    font-size:30px;
+    margin:auto;
+}
+.logo{
+    margin:auto;
+    color:black;
+    font-size:35px;
+}
+.main_con{
+    box-sizing:border-box;
+    display:none;
+}
+.s1{
+    font-family: 'Akaya Telivigala', cursive;
+    border:1px solid black;
+    height:100%;
+    border-radius:8px;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s2{
+    font-family: 'Caveat', cursive;
+    border:1px solid black;
+    height:100%;
+    border-radius:8px;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s3{
+font-family: 'Concert One', cursive;
+border:1px solid black;
+    height:100%;
+    display:flex;
+    border-radius:8px;
+    padding:2%;
+    margin:2%;
+    margin-bottom:5px;
+    
+}
+.s4{
+    font-family: 'Cookie', cursive;
+    border:1px solid black;
+    height:100%;
+    border-radius:8px;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s5{
+    font-family: 'Courgette', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s6{
+    font-family: 'Dancing Script', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s7{
+    font-family: 'Dosis', sans-serif;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s8{
+    font-family: 'Festive', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s9{
+    font-family: 'Fredoka One', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s10{
+    font-family: 'Great Vibes', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s11{
+    font-family: 'Indie Flower', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+    
+}
+
+
+.s12{
+    font-family: 'Lobster', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s13{
+    font-family: 'Mochiy Pop P One', sans-serif;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s14{
+    font-family: 'Oswald', sans-serif;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s15{
+    font-family: 'Patrick Hand', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s16{
+    font-family: 'Permanent Marker', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s17{
+font-family: 'Quintessential', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+    
+}
+.s18{
+    font-family: 'Roboto', sans-serif;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s19{
+    font-family: 'Rock 3D', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s20{
+    font-family: 'Rowdies', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s21{
+    font-family: 'Secular One', sans-serif;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s22{
+    font-family: 'Shizuru', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s23{
+    font-family: 'Tangerine', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+.s24{
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+
+.s25{
+    font-family: 'Akaya Telivigala', cursive;
+    border-radius:8px;
+    border:1px solid black;
+    height:100%;
+    display:flex;
+    padding:2%;
+    margin:2%;
+}
+/*
+.s26{
+    
+}
+*/
